@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.winds.album.view.SquareItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/selector_picker_photo_bg"
+        android:padding="1dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pictures_no" />
+
+    <ImageView
+        android:id="@+id/v_selected"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/selector_bg_picker" />
+
+</me.winds.album.view.SquareItemLayout>

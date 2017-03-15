@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Album</string>
+
+    <string name="spalsh_jump">跳过</string>
+    <string name="spalsh_connect">连接</string>
+
+    <string name="main_camera">相机</string>
+    <string name="main_gallery">图库</string>
+    <string name="main_setting">设置</string>
+
+    <string name="title_about">关于</string>
+    <string name="title_mode_setting">模式设置</string>
+    <string name="title_heat_setting">温度设置</string>
+    <string name="title_device_mode">上位机模式</string>
+
+    <string name="details_information">详细信息</string>
+    <string name="details_name">名称</string>
+    <string name="details_time">时间</string>
+    <string name="details_size">大小</string>
+    <string name="details_width">宽度</string>
+    <string name="details_heigth">高度</string>
+    <string name="details_path">路径</string>
+    <string name="details_close">关闭</string>
+
+    <string name="tips_input_atmosphere_temperature">请输入大气温度</string>
+    <string name="tips_input_background_temperature">请输入背景温度</string>
+    <string name="tips_input_measured_distance">请输入测量距离</string>
+    <string name="tips_degrees_celsius">摄氏度</string>
+    <string name="tips_millimetre">毫米</string>
+
+    <string name="tips_current_recording_video">当前正在录制视频</string>
+    <string name="tips_opera_failed">操作失败</string>
+    <string name="tips_no_connect_enter">先进入主界面，稍后连接</string>
+
+    <string name="tips_connectting">正在连接中...</string>
+    <string name="tips_connect_success">连接成功</string>
+
+
+
+
+    <string name="tips_receiveing">正在接收...</string>
+    <string name="tips_saveing">正在保存...</string>
+    <string name="tips_can_not_receive">当前不能接收，请连接上热像仪!</string>
+    <string name="tips_send_image">请从上位机上发送图片</string>
+    <string name="tips_not_selected">当前未选中任何图片</string>
+    <string name="save_selected_image">确定保存选中的图片?</string>
+    <string name="delete_selected_image">确定删除选中的图片?</string>
+    <string name="receive_image">接收图片</string>
+    <string name="save">保存</string>
+
+
+
+
+    <string name="tips_connect_not_fit">当前连接非热像仪WiFi!</string>
+    <string name="tips_check_rename_item">请选中要重命名的条目</string>
+    <string name="tips_check_delete_item">请选中要删除的条目</string>
+    <string name="tips_rename">修改名称</string>
+    <string name="tips_confirm_delete">确定删除？</string>
+    <string name="tips_deleteing">正在删除...</string>
+    <string name="tips_add_success">新增成功</string>
+    <string name="tips_modify_success">修改成功</string>
+    <string name="tips_modify_failed">修改失败</string>
+    <string name="tips_unconnect_device">当前未连接热像仪</string>
+    <string name="tips_save_failed">保存失败!</string>
+    <string name="tips_save_success">保存成功</string>
+    <string name="tips_change_mode">仅在STA模式下需要改IP，请确定当前热像仪为STA模式</string>
+    <string name="tips_change_wifi">请先将热像仪WiFi设置成STA模式!修改完成后修改本机WiFi</string>
+    <string name="tips_input">请输入</string>
+    <string name="tips_wifi_ssid_is_null">Wi-Fi的名称不能为空</string>
+    <string name="tips_wifi_cipher_is_null">Wi-Fi密码不能为空</string>
+    <string name="tips_enter_cipher_not_enough">输入的密码位数小于8位</string>
+
+    <string name="tips_Atmospheric_temperature">大气温度精度为整数或带一位小数</string>
+    <string name="tips_background_temperature">背景温度精度为整数或带一位小数</string>
+    <string name="tips_measuring">测量距离必须为整数</string>
+
+
+
+    <string name="mode_choice">模式选择</string>
+    <string name="ip_address_setting">IP设置</string>
+    <string name="open_alarm">开启报警</string>
+    <string name="unconnect_wifi">未连接到热像仪Wi-Fi</string>
+    <string name="dont_connect">先不连接</string>
+    <string name="go_connect">去连接</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="create_file_folder">新建文件夹</string>
+    <string name="input_file_folder_name">请输入文件夹名称</string>
+    <string name="not_modify">无需修改</string>
+    <string name="modify">去修改</string>
+    <string name="set_sta_mode">设置STA模式</string>
+    <string name="name">名称</string>
+    <string name="cipher">密码</string>
+    <string name="input_wifi_ssid">请输入WiFi名称</string>
+    <string name="input_wifi_cipher">请输入WiFi密码</string>
+    <string name="input_sta_mode_device_ip">输入STA模式下热像仪的IP</string>
+    <string name="device_name">设备名称：%1$s</string>
+    <string name="firmware_version">固件版本：%1$s</string>
+
+
+    <string name="settings_mode_setting">模式设置</string>
+    <string name="settings_temperature_setting">温度设置</string>
+    <string name="settings_about_survey">关于测温仪</string>
+
+    <string name="about_copyright">©%1$d 英孚瑞公司版权所有</string>
+    <string name="about_version">红外热像仪 %1$s</string>
+
+    <string-array name="popwindow_gallery">
+        <item>新建</item>
+        <item>选择</item>
+        <item>接收图片</item>
+    </string-array>
+    <string-array name="popwindow_image_pager_single">
+        <item>分享</item>
+    </string-array>
+    <string-array name="popwindow_image_pager_double">
+        <item>分享</item>
+        <item>详细信息</item>
+    </string-array>
+
+    <string-array name="mode_settings">
+        <item>AP模式</item>
+        <item>STA模式</item>
+    </string-array>
+
+
+
+
+    <string name="main_quit_tip">再按次返回键，退出应用</string>
+
+    <string name="settings_temperature_unit">温度单位</string>
+    <string name="settings_adiance">辐射率</string>
+    <string name="settings_auto_close">自动关机</string>
+    <string name="settings_precisiont">精准测温</string>
+    <string name="settings_cursor">十字光标</string>
+    <string name="settings_upper_alert">高温报警</string>
+    <string name="settings_lower_alert">低温报警</string>
+    <string name="settings_wifi_seting">WiFi设置</string>
+
+    <string name="account">帐号</string>
+    <string name="password">密码</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="loading">正在加载...</string>
+    <string name="tip">提示</string>
+    <string name="no_wifi_tips">未扫描到WIFI，您可以到设置WIFI页面连接</string>
+    <string name="enter_wifi_password_tips">请输入Wifi密码</string>
+    <string name="enter_is_null">输入不能为空！</string>
+    <string name="account_not_match_password">账户名密码不匹配, 请重试</string>
+    <string name="connected_success">连接成功</string>
+    <string name="tip_enter_high_alert_num">请输入高温报警界限值</string>
+    <string name="tip_enter_low_alert_num">请输入低温报警界限值</string>
+
+
+
+    <string name="unit">张</string>
+
+    <string-array name="array_temperature_unit">
+        <item>摄氏度</item>
+        <item>华氏度</item>
+    </string-array>
+
+    <string-array name="array_auto_close">
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>OFF</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="default_image_folder">图片</string>
+    <string name="default_video_folder">视频</string>
+
+
+
+    <string name="help_descrip">连接流程：</string>
+    <string-array name="help_desc">
+        <item> 1. 请提前打开热像仪</item>
+        <item> 2. 选择热像仪AP模式，并打开WiFi</item>
+        <item> 3. 查看热像仪上WiFi名称和密码</item>
+        <item> 4. 在扫描到的WiFi列表里找到该WiFi</item>
+        <item> 5. 输入名称密码，连接成功后，自动进入主界面</item>
+    </string-array>
+
+</resources>
